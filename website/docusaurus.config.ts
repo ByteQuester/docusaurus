@@ -366,6 +366,7 @@ export default async function createConfigAsync() {
           showLastUpdateTime: showLastUpdate,
         } satisfies DocsOptions,
       ],
+
       !process.env.DOCUSAURUS_SKIP_BUNDLING && [
         'client-redirects',
         {
@@ -685,6 +686,12 @@ export default async function createConfigAsync() {
             position: 'left',
             sidebarId: 'api',
             label: 'API',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tasks',
+            position: 'left',
+            label: 'Tasks',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           {to: 'showcase', label: 'Showcase', position: 'left'},

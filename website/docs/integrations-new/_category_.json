@@ -1,0 +1,8 @@
+{
+  "label": "Integrations",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains guides for integrating third-party tools and services with the platform."
+  }
+}

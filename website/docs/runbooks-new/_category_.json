@@ -1,0 +1,8 @@
+{
+  "label": "Runbooks",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains a set of runbooks for troubleshooting and resolving common issues."
+  }
+}

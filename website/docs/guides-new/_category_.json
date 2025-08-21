@@ -1,0 +1,8 @@
+{
+  "label": "New Guides",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains a set of guides for setting up and managing the platform."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "10: CI/CD",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tasks related to CI/CD and Supply Chain."
+  }
+}

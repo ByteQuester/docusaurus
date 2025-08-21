@@ -1,0 +1,8 @@
+{
+  "label": "20: Containers and Policies",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Tasks related to containerization, Helm charts, and security policies."
+  }
+}

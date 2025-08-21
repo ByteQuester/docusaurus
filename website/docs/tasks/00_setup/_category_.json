@@ -1,0 +1,8 @@
+{
+  "label": "00: Setup",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Tasks for the initial repository and workspace setup."
+  }
+}

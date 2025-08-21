@@ -1,0 +1,8 @@
+{
+  "label": "Incidents",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains reports from past incidents."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "50: Docs Management",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Tasks related to managing the documentation site."
+  }
+}
