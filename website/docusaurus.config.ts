@@ -693,6 +693,18 @@ export default async function createConfigAsync() {
             position: 'left',
             label: 'Tasks',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'runbooks',
+            position: 'left',
+            label: 'Runbooks',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'archive',
+            position: 'left',
+            label: 'Archive',
+          },
           {to: 'blog', label: 'Blog', position: 'left'},
           {to: 'showcase', label: 'Showcase', position: 'left'},
           {

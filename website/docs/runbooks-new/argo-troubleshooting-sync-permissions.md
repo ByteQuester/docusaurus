@@ -77,8 +77,8 @@ Use this when you don’t need multi-namespace Application definitions.
     kubectl -n argocd get application backend-sample -o yaml | yq ".status.sync.status,.status.health.status"
     ```
 
-    </TabItem>
-    <TabItem value="multi-namespace" label="Alternative: Multi-Namespace Management">
+  </TabItem>
+  <TabItem value="multi-namespace" label="Alternative: Multi-Namespace Management">
 
 Use this when you intentionally want Application CRs to live outside `argocd` (e.g., `gitops`).
 
@@ -121,7 +121,10 @@ Use this when you intentionally want Application CRs to live outside `argocd` (e
     kubectl apply -f project-default-source-ns.yaml
     ```
 
-4.  Keep Applications in `gitops` and re-annotate to refresh as in the Fast fix. </TabItem> </Tabs>
+4.  Keep Applications in `gitops` and re-annotate to refresh as in the Fast fix.
+
+  </TabItem>
+</Tabs>
 
 ## Quick Triage
 

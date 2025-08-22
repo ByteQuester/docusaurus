@@ -1,0 +1,8 @@
+{
+  "label": "Archive",
+  "position": 99,
+  "link": {
+    "type": "generated-index",
+    "description": "This section contains archived tasks and projects."
+  }
+}

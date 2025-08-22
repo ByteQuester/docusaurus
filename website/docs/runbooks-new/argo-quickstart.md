@@ -6,26 +6,38 @@ sidebar_position: 1
 
 # ArgoCD Quickstart
 
-:::info This document provides a quick start guide for setting up ArgoCD. :::
+:::info This document provides a quick start guide for setting up ArgoCD, a declarative, GitOps continuous delivery tool for Kubernetes. :::
 
-## Repository Access
+## Prerequisites
 
-:::note Deploy Keys To allow ArgoCD to access the git repository, we use a deploy key. A deploy key is an SSH key that grants access to a single repository. :::
+Before you begin, you should have:
 
-### 1. Generating a Deploy Key
+- A running Kubernetes cluster.
+- `kubectl` installed and configured to connect to your cluster.
+- A GitHub repository containing your Kubernetes manifests.
 
-Generate a new SSH keypair:
+## 1. Deploy Key Setup
+
+To allow ArgoCD to access your git repository, we use a deploy key. A deploy key is an SSH key that grants read-only access to a single repository.
+
+### 1.1. Generating a Deploy Key
+
+First, generate a new SSH keypair. This key will be used to authenticate ArgoCD with your GitHub repository.
 
 ```bash title="Generate SSH key"
 ssh-keygen -t ed25519 -C "argocd-deploy-key" -f ./argocd-deploy-key
 ```
 
-### 2. Adding the Deploy Key to GitHub
+This command will create two files: `argocd-deploy-key` (the private key) and `argocd-deploy-key.pub` (the public key).
 
-1.  Go to your repository's **Settings** on GitHub.
-2.  Click on **Deploy Keys**.
-3.  Click **Add deploy key**.
-4.  Give it a title, e.g., "ArgoCD".
-5.  Paste the public key (`argocd-deploy-key.pub`) into the "Key" field.
-6.  Do not check "Allow write access".
-7.  Click **Add key**.
+### 1.2. Adding the Deploy Key to GitHub
+
+Next, you need to add the public key as a deploy key to your GitHub repository.
+
+1.  Navigate to your repository's **Settings** page on GitHub.
+2.  In the sidebar, click on **Deploy Keys**.
+3.  Click the **Add deploy key** button.
+4.  Provide a **Title** for the key, for example, "ArgoCD".
+5.  Paste the contents of the public key file (`argocd-deploy-key.pub`) into the **Key** field.
+6.  Ensure the **Allow write access** checkbox is **not** checked, as ArgoCD only needs read access.
+7.  Click **Add key** to save the deploy key.
