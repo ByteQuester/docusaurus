@@ -6,7 +6,11 @@ sidebar_position: 2
 
 # Smart CI for Monorepo (Atomic Tasks)
 
-:::info **Goal:** Make CI detect changed apps and charts reliably, run the right jobs, and avoid skip-chains. :::
+:::info
+
+**Goal:** Make CI detect changed apps and charts reliably, run the right jobs, and avoid skip-chains.
+
+:::
 
 ### CI-013 — Add path filters for apps and charts
 

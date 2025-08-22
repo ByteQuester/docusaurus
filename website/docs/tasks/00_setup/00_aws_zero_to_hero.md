@@ -6,7 +6,11 @@ sidebar_position: 1
 
 # AWS Zero-to-Hero (Atomic Tasks)
 
-:::info End-to-end tasks to take this repo from zero to a live deployment on AWS (EKS), validated with a frontend + backend-sample and CI proofs. Each task is atomic with dependencies. :::
+:::info
+
+End-to-end tasks to take this repo from zero to a live deployment on AWS (EKS), validated with a frontend + backend-sample and CI proofs. Each task is atomic with dependencies.
+
+:::
 
 **Legend:** Dependencies reference other task IDs here or in `tasks/*`.
 

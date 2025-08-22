@@ -6,7 +6,11 @@ sidebar_position: 3
 
 # Release Process Alignment
 
-:::info **Goal:** Ensure docs and practice match current CI/CD release flow. :::
+:::info
+
+**Goal:** Ensure docs and practice match current CI/CD release flow.
+
+:::
 
 ### REL-001 — Review and align docs
 

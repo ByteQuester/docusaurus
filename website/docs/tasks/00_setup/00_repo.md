@@ -6,7 +6,11 @@ sidebar_position: 2
 
 # Repository and Workspace
 
-:::info Ordered tasks to establish a maintainable monorepo foundation. :::
+:::info
+
+Ordered tasks to establish a maintainable monorepo foundation.
+
+:::
 
 ### REPO-001 — Bootstrap repository skeleton
 

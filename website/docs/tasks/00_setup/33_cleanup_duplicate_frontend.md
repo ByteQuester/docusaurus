@@ -6,7 +6,11 @@ sidebar_position: 3
 
 # Cleanup Duplicate Frontend
 
-:::info **Goal:** Ensure single source of truth at `apps/frontend`. :::
+:::info
+
+**Goal:** Ensure single source of truth at `apps/frontend`.
+
+:::
 
 ### CLEAN-001 — Inventory duplicate paths
 

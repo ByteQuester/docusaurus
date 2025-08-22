@@ -6,7 +6,11 @@ sidebar_position: 1
 
 # Blueprints and Templates (Reproducible Onboarding)
 
-:::info Atomic tasks to create reusable templates so adding N frontends/backends is fast, consistent, and infra-safe. :::
+:::info
+
+Atomic tasks to create reusable templates so adding N frontends/backends is fast, consistent, and infra-safe.
+
+:::
 
 ### BP-001 — Helm chart template for services
 

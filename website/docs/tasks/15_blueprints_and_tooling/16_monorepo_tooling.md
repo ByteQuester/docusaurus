@@ -6,7 +6,11 @@ sidebar_position: 2
 
 # Monorepo Tooling Evaluation
 
-:::info **Goal:** Decide whether to adopt Turborepo, Nx, or Lerna on top of pnpm workspaces. Keep the current repo productive; adopt only if it adds clear value. :::
+:::info
+
+**Goal:** Decide whether to adopt Turborepo, Nx, or Lerna on top of pnpm workspaces. Keep the current repo productive; adopt only if it adds clear value.
+
+:::
 
 ### MRP-001 — Baseline capture
 
